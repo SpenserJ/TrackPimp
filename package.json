@@ -1,0 +1,26 @@
+{
+  "name": "track-pimp",
+  "description": "",
+  "keywords": [ "" ],
+  "author": [
+    { "name": "Spenser Jones", "email": "spenser.e.jones@gmail.com" },
+    { "name": "Graham Nanke", "email": "gnanke@gmail.com" }
+  ],     
+  "version": "0.0.1",
+  "main": "./lib/trackpimp.js",
+  "bin": {
+    "trackpimp": "./trackpimp"
+  },
+  "engines": {
+    "node": ">=0.8.x"
+  },
+  "scripts": {
+    "start": "trackpimp"
+  },
+  "dependencies": {
+    "express": "3.0.x",
+    "socket.io": "0.9.x",
+    "nconf": "0.6.x",
+    "less-middleware": "0.1.x"
+  }
+}
